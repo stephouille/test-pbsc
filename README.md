@@ -36,4 +36,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 4. API call and display errors or success message
 5. Add few unit tests
 
-I tried to have really small components a smart and dumb component logic.
+I tried to have really small components and a "smart and dumb components" logic.
