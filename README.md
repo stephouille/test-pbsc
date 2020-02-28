@@ -30,7 +30,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## My approach
 
-1. Install create-react-app
+1. Install a `create-react-app` project
 2. Design of the component (responsive and mobile first approach)
 3. Handle the email format
 4. API call and display errors or success message
