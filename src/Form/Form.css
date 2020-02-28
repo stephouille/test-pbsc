@@ -1,0 +1,56 @@
+.Form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  width: 20rem;
+  max-width: calc(100% - 2rem);
+}
+
+.Label {
+  align-self: center;
+  font-weight: bold;
+  line-height: 2;
+}
+
+input {
+  border-radius: 0.2rem;
+  padding: 0.7rem 0.5rem;
+  outline: none;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.Input {
+  border: 1px solid #cccccc;
+  font-size: 0.8rem;
+}
+
+.Error {
+  margin-top: 0.5rem;
+  color: red;
+}
+
+.SuccessMessage {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: green;
+}
+
+@media (min-width: 768px) {
+  .Form {
+    flex-direction: row;
+  }
+
+  .Label {
+    position: absolute;
+    left: 0;
+    transform: translateX(calc(-100% - 1rem));
+    align-self: flex-start;
+  }
+}
